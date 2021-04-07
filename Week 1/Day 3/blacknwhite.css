@@ -1,0 +1,41 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.box1{
+    height: 40px;
+    width: 40px;
+    background-color:lightgray;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+
+.box2{
+    height: 40px;
+    width: 40px;
+    background-color:gray;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+
+.box3{
+    height: 40px;
+    width: 40px;
+    background-color:slategrey;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+
+.box4{
+    height: 40px;
+    width: 40px;
+    background-color:darkslategray;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+
+.main-container{
+    float:left;
+}
