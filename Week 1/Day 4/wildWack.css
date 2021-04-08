@@ -1,0 +1,58 @@
+
+
+table, th, td{
+    border: 1px solid lightslategray
+    
+}
+
+th, td{
+    padding: 15px;
+}
+/*
+.r2{
+    background-color: #d3d3d3;
+}
+*/
+.border border-3{
+    width: 100%;
+}
+
+.img{
+    margin-top: 15px;
+}
+/*
+.fave{
+    background-color: lightgray;
+    padding: 1em;
+*/
+}
+/*
+p, ul{
+    text-align:center;
+
+}
+
+li{
+    text-decoration: none;
+}
+*/
+
+.bg-light{
+    width: 80%;
+}
+
+ul{
+    padding:10px;
+}
+
+.p-2 bd-highlight{
+    margin-top:20px;
+}
+
+h2{
+    margin-top: 20px;
+}
+
+.container{
+    margin-top:20px;
+}
