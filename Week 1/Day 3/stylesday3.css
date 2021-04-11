@@ -1,0 +1,40 @@
+.flex-container{
+    background-color: none;
+    display:flex;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap:wrap;
+    text-align: center;
+    border: red;
+    align-self: stretch;
+    
+}
+
+.flex-container > div {
+    border:orangered;
+    
+}
+
+.box1 {
+    background-color:lightskyblue;
+    width: 600px;
+    height: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.box2 {
+    background-color: lightskyblue;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+
+.box3 {
+    background-color: lightskyblue;
+    width: 600px;
+    height: 20px;
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+.trio{
+    display: flex;
+    flex-direction: row;
+    padding: none;
+    
+
+}
+
+.box1{
+    height: 40px;
+    width: 40px;
+    background-color: orange;
+    margin-right: 2px;
+    margin-bottom: 2px;
+  
+}
+
+.box2{
+    height: 40px;
+    width: 40px;
+    background-color:peachpuff;
+    margin-right: 2px;
+    margin-bottom: 2px;
+   
+}
+
+.box3{
+    height: 40px;
+    width: 40px;
+    background-color:indianred;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    
+}
+
+.flex-container{
+    display:flex;
+    flex-wrap:wrap;
+    
+    
+        
+}
+
