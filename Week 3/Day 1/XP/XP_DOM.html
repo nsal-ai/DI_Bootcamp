@@ -1,0 +1,124 @@
+<!-- <div id="navBar">
+    <ul>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">My Friends</a></li>
+        <li><a href="#">Messenger</a></li>
+        <li><a href="#">My Pics</a></li>
+    </ul>
+
+    <script>
+    
+       let navBar = document.querySelector('#navBar');
+       // navBar variable taken id att pf socialNetworkNavigation in console
+       let newNav =  navBar.setAttribute("id", "socialNetworkNavigation"); 
+       let a = document.querySelector('ul');
+       let b = document.querySelectorAll('li');
+       let newList = document.createElement('li');
+       var txt = document.createTextNode("Logout");
+       let c = newList.append(txt);
+       document.querySelector('ul').appendChild(newList);
+
+
+// not sure this in correct, using index makes use of properties redundant.
+       let d = document.firstElementChild.getElementsByTagName('li')[0].textContent;
+       let e = document.lastElementChild.getElementsByTagName('li')[5].textContent;
+
+
+       
+      
+       
+
+    //    let newNav_1 = document.getElementById("id").setAttribute("socialNetworkNavigation"); 
+    //    
+    </script>
+    <script src="xP_DOM.js"></script>
+</div> -->
+
+
+
+<!-- Exercise 2 ============= -->
+
+
+<!-- <html>
+
+<body>
+    <div id="container"><h3>Users:</h3>
+        <ul class="list">
+            <li>John</li>
+            <li>Pete</li>
+        </ul>
+        <ul class="list">
+            <li>David</li>
+            <li>Sarah</li>
+            <li>Dan</li>
+        </ul>
+    </div>
+    <script>
+        let newName = document.createTextNode("Richard");
+        let item = document.getElementsByTagName('ul')[0].childNodes[3];
+        item.replaceChild(newName, item.childNodes[0]);
+
+        let a = document.getElementsByTagName('ul')[0].firstElementChild; //John
+        let b = document.getElementsByTagName('ul')[1].firstElementChild; //David
+        let c = document.createElement('li');
+        let d = document.createElement('li');
+        c.append("Yigal");
+        d.append("Yigal");
+        var ul_1 = document.getElementsByTagName('ul')[0];
+        ul_1.replaceChild(c, a);
+
+        var ul_2 = document.getElementsByTagName('ul')[1];
+        ul_2.replaceChild(d, b);
+
+
+        // selects Richard and Dan
+        var form = document.querySelectorAll('ul')
+
+        //at this point think about moving top div to contain whole doc and use querySelector
+
+        var newLi = document.createElement('li');
+        var newLi_2 = document.createElement('li');
+        document.querySelector("ul").appendChild(newLi).append(students);
+        document.querySelectorAll("ul")[1].appendChild(newLi_2).append(students);
+        var students = document.createTextNode("Hey Students");
+
+        document.querySelectorAll("ul > list").classList.add("student_list");
+        document.querySelectorAll("ul > list")[0].classList.add("university", "attendance");
+
+        
+
+
+    </script>
+
+    <script src="xP_DOM.js"></script>
+</body>
+
+</html> -->
+
+
+
+<!-- ==== Exercise 3 ============ -->
+
+<html>
+<body>
+  <div>Users:</div>
+  <ul>
+    <li>John</li>
+    <li>Pete</li>
+  </ul>
+
+  <script>
+      let back = document.querySelector("div").style.background = "blue";
+      document.querySelector('li').style.display = 'none';
+      document.querySelectorAll('li')[1].style.border = "thick solid #0000FF";
+      document.querySelector('body').style.fontSize = "x-large";
+
+      if (back = "blue"){
+          alert("Hello x and Y");
+      }
+  </script>
+
+  <script src="xP_DOM.js"></script>
+</body>
+</html>
