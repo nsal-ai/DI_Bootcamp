@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+    <input type="text" name="" id="letters">
+    </p>
+    <script>
+        
+        let letters = document.getElementById('letters');
+        document.addEventListener('keyup', pressKey);
+        function pressKey(e){
+            letters.value = letters.value.replace("/^[a-zA-Z]+$/", '');
+            console.log(letters.value);
+        }
+    </script>
+    <script src="Letters.js"></script>
+</body>
+</html>
